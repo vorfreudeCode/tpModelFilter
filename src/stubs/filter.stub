@@ -1,0 +1,12 @@
+<?php
+declare (strict_types = 1);
+
+namespace {%namespace%};
+
+use  app\tpModelFilter\ModelFilter;
+
+
+class {%className%} extends ModelFilter
+{
+    //
+}
