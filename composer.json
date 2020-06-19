@@ -8,8 +8,7 @@
         }
     ],
     "require": {
-          "php": ">=5.5.9",
-          "topthink/think-orm": "^2.0"
+          "php": ">=5.5.9"
         },
         "autoload": {
             "psr-4": {
