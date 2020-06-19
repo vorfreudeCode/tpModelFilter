@@ -16,7 +16,7 @@ trait Filterable
         if($filter !== null){
             $class = "\\app\\modelFilter\\".$filter;
         }else{
-            $class = "\\app\\modelFiles\\".__CLASS__."Filter";
+            $class = "\\app\\modelFilter\\".__CLASS__."Filter";
         }
         $modelFilter = new $class($query,$input);
 
