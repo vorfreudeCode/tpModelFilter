@@ -37,7 +37,7 @@ class Users extends Model
 
 ```
 
-使用命令行   `think make:filter UsersFilter`   创建filter文件，默认格式为"模型名+Filter" ，完全继承模型的方法
+使用命令行   `think make:filter UsersFilter`   创建filter文件，默认格式为"模型名+Filter" ，传参会过滤空参，自动转化为驼峰写法比如`nick_name`会转化为`nickName`，调用filter里面的`nickName`方法，完全继承模型的方法
 
 ```php
 <?php
