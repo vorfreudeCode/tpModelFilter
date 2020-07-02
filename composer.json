@@ -1,6 +1,9 @@
 {
     "name": "syhcode/tp-model-filter",
     "description": "thinkphp的ORM拓展",
+    "keywords": ["thinkphp", "model", "tp", "orm", "filter"],
+    "homepage": "https://github.com/vorfreudeCode/tpModelFilter",
+    "license": "MIT",
     "authors": [
         {
             "name": "anananan",
